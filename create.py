@@ -6,9 +6,9 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host="localhost",    # e.g., "localhost"
-        user="root",    # e.g., "root"
-        password="suraj@123",  # Your MySQL password
-        database="test"  # Your database name
+        user="username",    # e.g., "root"
+        password="xyz",  # Your MySQL password
+        database="abc"  # Your database name
         )
         if connection.is_connected():
             print("Connected to MySQL")
