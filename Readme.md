@@ -5,12 +5,6 @@
 
 This project demonstrates a **multi-layer SQL architecture** integrated with a **Streamlit** app to provide real-time insights and analytics. The architecture follows the **Bronze**, **Silver**, and **Gold** layer structure for efficient data handling and transformation. The **Streamlit** app allows users to visualize and interact with the data through a web-based interface.
 
-## Project Structure
-
-. ├── pages/ │ ├── analytics.py # Contains analytics and insights logic │ ├── documentation.py # Documentation and app description page │ ├── visualize.py # Visualization logic for the Streamlit app ├── Readme # Project documentation ├── create.py # Script for creating Bronze, Silver, and Gold layers ├── layers.png # Diagram of the architecture ├── load.py # Script to load data into the layers ├── main.py # Entry point for the Streamlit app ├── query.py # SQL queries for extracting data from the Gold Layer ├── requirements.txt # Dependencies for running the project
-
-
-
 
 ## Architecture Layers
 
